@@ -13,6 +13,8 @@ Then say what you want to make. It installs the GDK, signs you in, scaffolds the
 
 Requires [Bitmagic Pro](https://bitmagic.ai/pro/) and Node.js 20+.
 
+Licensed under the PolyForm Shield License 1.0.0 with Bitmagic's games permission — the same terms as the GDK itself. See [LICENSE.md](./LICENSE.md).
+
 ## Not using Claude Code?
 
 Codex, Cursor and OpenCode have no plugin marketplace, so installing this means putting the same text in the file your agent reads at startup. Copy the block from https://bitmagic.ai/gdk/ into `~/.codex/AGENTS.md`, `.cursor/rules/bitmagic.mdc`, or your project's `AGENTS.md`.
