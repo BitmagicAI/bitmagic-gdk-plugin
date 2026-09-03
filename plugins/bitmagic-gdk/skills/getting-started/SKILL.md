@@ -92,7 +92,7 @@ bitmagic dev
 session is killed, and left until last it is a server nobody needed.
 
 Then tell the human the URL, once, in your reply. Take it from what the command printed
-rather than assuming 3011 — the ports drift when something else holds them, and
+rather than assuming 3011 — each project on the machine has its own fixed ports, and
 `.bitmagic/dev.json` records what it actually bound. Everything `bitmagic dev` prints goes
 into a background log the human never opens, so a URL you do not say out loud is a URL
 nobody got.

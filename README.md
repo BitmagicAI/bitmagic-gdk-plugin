@@ -4,8 +4,13 @@ The [Bitmagic GDK](https://bitmagic.ai/gdk/) is a game development kit for agent
 
 This plugin teaches Claude Code to set it up.
 
+Two commands, one at a time — the second needs the first to have finished:
+
 ```
 /plugin marketplace add BitmagicAI/bitmagic-gdk-plugin
+```
+
+```
 /plugin install bitmagic-gdk@bitmagic
 ```
 
