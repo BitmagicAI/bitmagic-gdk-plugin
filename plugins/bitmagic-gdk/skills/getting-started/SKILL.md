@@ -82,6 +82,10 @@ Name the directory after their idea. This mints the game, vendors the engine, an
 `AGENTS.md`, `GAME-DESIGN.md` and the project's own skills. Work inside that directory from
 now on.
 
+The skills land where your agent looks without being told: `.agents/skills/` (Cursor, Codex,
+Copilot, Cline, OpenCode) and `.claude/skills/` are both written every time. **If you are
+Kiro**, add `--agent kiro` so `.kiro/skills/` and a steering file are written too.
+
 ## 5. Start the dev view — now, not at the end
 
 ```
@@ -104,9 +108,10 @@ could steer the first.
 
 ## 6. Hand off — this skill is finished
 
-Read `AGENTS.md` at the project root, and the skills in `.claude/skills/`. They describe this
-engine and this version of the GDK, `bitmagic upgrade` keeps them current, and **they outrank
-everything here**. Follow them from now on and stop consulting this file.
+Read `AGENTS.md` at the project root. It names the skills directory your own agent loads —
+`bitmagic init` writes one for each — and both describe this engine and this version of the
+GDK. `bitmagic upgrade` keeps them current, and **they outrank everything here**. Follow them
+from now on and stop consulting this file.
 
 ## While you are doing the above
 

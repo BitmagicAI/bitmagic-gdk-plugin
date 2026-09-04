@@ -22,4 +22,14 @@ Licensed under the PolyForm Shield License 1.0.0 with Bitmagic's games permissio
 
 ## Not using Claude Code?
 
-Codex, Cursor and OpenCode have no plugin marketplace, so installing this means putting the same text in the file your agent reads at startup. Copy the block from https://bitmagic.ai/gdk/ into `~/.codex/AGENTS.md`, `.cursor/rules/bitmagic.mdc`, or your project's `AGENTS.md`.
+This repo is also an [agent skills](https://agentskills.io) package, so one command installs it into any other agent:
+
+```
+npx skills add BitmagicAI/bitmagic-gdk-plugin -g -a cursor
+```
+
+Swap `-a` for your own tool — cursor, codex, kiro-cli, github-copilot, windsurf, opencode and ~70 more (`npx skills find` lists them). Keep the `-a`: without it, a non-interactive run installs into every agent the tool knows. `-g` installs it for every project, which is the point — the skill is for the stretch before a project exists.
+
+Claude Code creators should still use the plugin above: it also ships the `/bitmagic-setup` command, which a bare skill install does not.
+
+No npm, or an agent the tool does not know? Paste the block from https://bitmagic.ai/gdk/ into the file your agent reads at startup.
