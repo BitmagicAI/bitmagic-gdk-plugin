@@ -1,6 +1,6 @@
 {
   "name": "bitmagic-gdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use when someone asks to build, make, or ship a game with Bitmagic or the Bitmagic GDK, mentions the bitmagic command or Bitmagic Pro, or is starting a Bitmagic game and has no project yet. Installs the GDK, signs them in, scaffolds the project and starts the live dev view, then hands off to the project's own AGENTS.md.",
   "author": {
     "name": "Bitmagic",

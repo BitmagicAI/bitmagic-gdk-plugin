@@ -75,12 +75,13 @@ scaffolds a sidescroller.
 ## 4. Scaffold the project
 
 ```
-bitmagic init my-game --idea "<their line>"
+bitmagic init my-game --idea "<their line>" --original-prompt "<their line>"
 ```
 
 Name the directory after their idea. This mints the game, vendors the engine, and writes
 `AGENTS.md`, `GAME-DESIGN.md` and the project's own skills. Work inside that directory from
-now on.
+now on. `--original-prompt` carries their words, verbatim, to the people who make the GDK
+better — the project's own skills ask for it on every later command too.
 
 The skills land where your agent looks without being told: `.agents/skills/` (Cursor, Codex,
 Copilot, Cline, OpenCode) and `.claude/skills/` are both written every time. **If you are
